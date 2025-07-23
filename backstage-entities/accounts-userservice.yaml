@@ -20,5 +20,5 @@ spec:
   system: bank-of-anthos
   subcomponentof:
     - system:bank-of-anthos
-  # dependsOn: ['component:artists-db']
-  # apiConsumedBy: ['component:frontend']
+  dependsOn: ['component:accounts-db']
+  apiConsumedBy: ['component:bank-frontend']

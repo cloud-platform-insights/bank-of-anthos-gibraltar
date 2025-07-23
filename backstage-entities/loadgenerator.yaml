@@ -11,7 +11,7 @@ metadata:
       icon: help
   annotations:
     'backstage.io/kubernetes-id': bank-loadgenerator
-    'backstage.io/techdocs-ref': dir:../src/loadgenerator
+    'backstage.io/techdocs-ref': dir:.
 spec:
   type: service
   lifecycle: experimental
@@ -19,5 +19,5 @@ spec:
   system: bank-of-anthos
   subcomponentof:
     - system:bank-of-anthos
-  # dependsOn: ['component:artists-db']
+  dependsOn: ['component:bank-frontend']
   # apiConsumedBy: ['component:frontend']

@@ -11,7 +11,7 @@ spec:
     - ./backstage-entities/accounts-db.yaml
     - ./backstage-entities/accounts-contacts.yaml
     - ./backstage-entities/accounts-userservice.yaml
-    - ./backstage-entities/frontend.yaml
+    - ./backstage-entities/bank-frontend.yaml
     - ./backstage-entities/ledger-balancereader.yaml
     - ./backstage-entities/ledger-db.yaml
     - ./backstage-entities/ledger-ledgerwriter.yaml

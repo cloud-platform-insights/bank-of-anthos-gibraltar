@@ -12,7 +12,7 @@ metadata:
       icon: help
   annotations:
     'backstage.io/kubernetes-id': accounts-contacts
-    'backstage.io/techdocs-ref': dir:../src/accounts/contacts
+    'backstage.io/techdocs-ref': dir:src/accounts/contacts
 spec:
   type: service
   lifecycle: experimental
@@ -20,5 +20,5 @@ spec:
   system: bank-of-anthos
   subcomponentof:
     - system:bank-of-anthos
-  # dependsOn: ['component:artists-db']
-  # apiConsumedBy: ['component:frontend']
+  dependsOn: ['component:accounts-db']
+  apiConsumedBy: ['component:bank-frontend']

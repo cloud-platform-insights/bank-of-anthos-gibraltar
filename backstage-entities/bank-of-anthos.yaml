@@ -4,6 +4,6 @@ metadata:
   name: bank-of-anthos
   description: Hippest bank in Anthos.
   annotations:
-      'backstage.io/techdocs-ref': dir:..
+      'backstage.io/techdocs-ref': dir:.
 spec:
   owner: group:default/cpet-core
